@@ -1,36 +1,13 @@
-# site settings
-title: TEA TIME
-subtitle: LA
-email: team.teatimela@gmail.com
-description: Created BY government techies, FOR government techies
-baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+# Site settings
+title: TEA Time LA
+email: teatimela@gmail.com
+description: > 
+  We are the LA County Tech Employee Association
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 10
+twitter_username:
+github_username:
 
-# social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: 
-googleplus_url: 
-instagram_url: 
-linkedin_url: 
-pinterest_url:
-slack_url:
-twitter_url: 
-
-# build settings
+# Build settings
 markdown: kramdown
-
-sass:
-  style: compressed
